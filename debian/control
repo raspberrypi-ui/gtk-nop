@@ -1,0 +1,15 @@
+Source: gtk-nop
+Section: admin
+Priority: optional
+Maintainer: Simon Long <simon@raspberrypi.com>
+Build-Depends: debhelper (>= 9), dh-autoreconf, dh-exec, libgtk-3-dev (>= 3.24)
+Standards-Version: 3.9.6
+Homepage: https://github.com/raspberrypi-ui/gtk-nop
+Vcs-Git: git://git@github.com:raspberrypi-ui/gtk-nop.git
+Vcs-Browser: https://github.com/raspberrypi-ui/gtk-nop
+
+Package: gtk-nop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GTK no-op
+ GTK program which does nothing at all...
